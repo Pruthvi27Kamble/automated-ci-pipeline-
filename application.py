@@ -1,5 +1,5 @@
 # Core Application Engine
-def calculate_grade(marks):
+def calculate_grade(marks)
     if not isinstance(marks, (int, float)):
         raise TypeError("Marks must be a numeric value")
     if marks < 0 or marks > 100:
